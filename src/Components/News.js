@@ -31,7 +31,7 @@ const News = (props) => {
   };
 
   useEffect(() => {
-    document.title = `${capitalizeFirstLetter(props.category)} - NewsMonkey`;
+    document.title = `${capitalizeFirstLetter(props.category)} - GurukulNews`;
     updateNews();
     //eslint-disable-next-line
   }, []);
